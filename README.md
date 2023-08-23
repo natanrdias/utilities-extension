@@ -25,7 +25,7 @@ Open the CRM of the merchant you want to capture the data from, open the extensi
 > ### E-mail & Phone hide
 >
 > - Will truncate the e-mail and phone registered in CRM (if the user of e-mail was less then 5 characters, will hide all)
-> - natan.dias@cloudwalk.io -> n*********@cloudwalk.io or
+> - natan.dias@cloudwalk.io -> n*********@gmail.com or
 > - natan@gmail.com -> *****@gmail.com
 > - +5599999999999 -> +55*******9999
 
