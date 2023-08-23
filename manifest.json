@@ -1,6 +1,6 @@
 {
-  "name": "EmailTrim & Capitalize",
-  "description": "Com a aba do CRM aberta, ele busca o Merchant name e nos trás já formatado",
+  "name": "Quick Formatter",
+  "description": "Com a aba do CRM aberta, ele nos traz informações essências como Merchant name em Capital Case, e-mail e telefone truncados",
   "author": "Natan",
   "version": "2.0",
   "manifest_version": 3,
