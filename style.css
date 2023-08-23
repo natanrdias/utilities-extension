@@ -1,0 +1,70 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  height: 350px;
+  width: 380px;
+  text-align: center;
+}
+
+div{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#copyRL, #copyMail{
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 320px;
+  cursor: pointer;
+}
+
+#importbtn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#importbtn:hover, #copyRL:hover, #copyMail:hover {
+  box-shadow: 0 0 4px darkolivegreen;
+  scale: 1.05;
+  transition: all 0.1s;
+}
+#importbtn:active {
+  background-color: #3e8e41;
+  scale: 1;
+  transition: all 0.1s;
+}
+
+#resultRL , #resultMail {
+  width: 300px;
+  height: 25px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
