@@ -1,6 +1,7 @@
 const button = document.getElementById("importbtn");
 const resultRL = document.getElementById("resultRL");
 const resultMail = document.getElementById("resultMail");
+//const resultPhone = document.getElementById("resultPhone")
 const buttonCopyRL = document.getElementById("copyRL")
 const buttonCopyMail = document.getElementById("copyMail")
 
@@ -16,7 +17,10 @@ button.addEventListener("click", async (event) => {
       const email = document.querySelector(
         "#merchant_details_content > div > div > div > div > table > tbody > tr:nth-child(3) > td:nth-child(2) > input"
       ).value;
-      return { name, email };
+      const phone = document.querySelector(
+        "#merchant_details_content > div > div > div > div > table > tbody > tr:nth-child(11) > td:nth-child(2) > input"
+      ).value
+      return { name, email, phone };
     },
   });
 
