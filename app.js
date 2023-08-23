@@ -23,16 +23,14 @@ button.addEventListener("click", async (event) => {
       return { name, email, phone };
     },
   });
-
-  // atribuimos o retorno a uma constante e usamos o replace com regex para detectar a primeira letra de cada palavra que está em lowercase e mudamos para upper
+  
   const nameResult = data[0].result.name
     .toLowerCase()
     .replace(/\b[a-z]/g, (letter) => {
       return letter.toUpperCase();
     });
   resultRL.innerText = nameResult;
-
-  //atribuimos o retorno do e-mail a uma constante e fazemos a ocultação de caracteres.
+  
   const emailResult = data[0].result.email.split("@");
   const userMail = emailResult[0].split("");
   const domainMail = emailResult[1];
