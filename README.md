@@ -2,6 +2,8 @@
 
 ## Installation
 
+Download Quick Formatter.zip here [Download](https://github.com/natanrdias/utilities-extension/releases)
+
 Access the Chrome extensions page by typing chrome://extensions/ in the address bar, or in the three dots in the corner.
 
 Enable "Developer Mode" in the top right corner of the extensions page.
