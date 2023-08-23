@@ -22,11 +22,12 @@ Open the CRM of the merchant you want to capture the data from, open the extensi
 > - NATAN DA ROSA DIAS -> Natan da Rosa Dias
 > - It will help to set in intercom the correct name to avoid mistakes on our macros.
 
-> ### E-mail hide
+> ### E-mail & Phone hide
 >
-> - Will truncate the e-mail registered in CRM (if the user was less then 5 characters, will hide all)
+> - Will truncate the e-mail and phone registered in CRM (if the user of e-mail was less then 5 characters, will hide all)
 > - natan.dias@cloudwalk.io -> n*********@cloudwalk.io or
 > - natan@gmail.com -> *****@gmail.com
+> - +5599999999999 -> +55*******9999
 
 ## Observations
 
