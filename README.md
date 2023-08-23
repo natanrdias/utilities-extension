@@ -32,4 +32,3 @@ Open the CRM of the merchant you want to capture the data from, open the extensi
 ## Observations
 
 - <p> The data is not persistant, if you close the extension will need to import again to use.
-- <p>Later I will add a option to phone Number too.
