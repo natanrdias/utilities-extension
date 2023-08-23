@@ -52,7 +52,7 @@ div{
   scale: 1.05;
   transition: all 0.1s;
 }
-#importbtn:active {
+#importbtn:active, #copyRL:active, #copyMail:active {
   background-color: #3e8e41;
   scale: 1;
   transition: all 0.1s;
