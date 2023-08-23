@@ -6,7 +6,7 @@ Access the Chrome extensions page by typing chrome://extensions/ in the address 
 
 Enable "Developer Mode" in the top right corner of the extensions page.
 
-Click the "Upload without compression" button and select the downloaded extension folder.
+Click the "Load unpacked" button and select the downloaded extension folder.
 
 ## Usage
 
